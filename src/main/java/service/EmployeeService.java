@@ -9,4 +9,5 @@ import model.NewEmployeeRequest;
 @WebService
 public interface EmployeeService {
 	public EmployeeResponse insertEmployee(@Valid NewEmployeeRequest newEmployeeRequest);
+	public String deleteEmployee(int id);
 }

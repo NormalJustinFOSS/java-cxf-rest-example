@@ -6,7 +6,7 @@
 	<groupId>technology.walrath</groupId>
 	<artifactId>Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>Demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -22,6 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<cxf.version>3.0.4</cxf.version>
+		<hibernate.version>5.1.3.Final</hibernate.version>
 	</properties>
 
 	<dependencies>
@@ -47,7 +48,7 @@
 		<dependency>
 		    <groupId>org.hibernate</groupId>
 		    <artifactId>hibernate-validator</artifactId>
-		    <version>5.1.3.Final</version>
+		    <version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 		    <groupId>org.apache.cxf</groupId>
